@@ -39,6 +39,13 @@ body{
     font-weight: 400;
     margin: 1rem 0;
 }
+.div2 h5{
+    font-size: 3rem;
+    color: var(--creme);
+    font-weight: 400;
+    text-align: center;
+    margin: 3rem;
+}
 .div2-1 {
     display: flex;
     flex-direction: row;
@@ -167,4 +174,15 @@ button.btnconheca:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.rodape {
+    background-color: var(--dourado);
+    padding: 1rem 0;
+}
+.rodape h6{
+    margin: 0;
+    color: var(--branco);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
 }
