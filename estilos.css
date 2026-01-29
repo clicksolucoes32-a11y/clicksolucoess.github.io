@@ -186,3 +186,42 @@ button.btnconheca:hover {
     font-size: 1rem;
     font-weight: 400;
 }
+/* Mobile*/
+@media screen and (max-width: 768px) {
+     .div1 {
+        flex-direction: column;
+        padding: 3rem 1rem 0;
+    }
+    img.imgprincial {
+        width: 30rem;
+    }
+    .frasedestaque {
+        font-size: 3rem;
+        margin: 0 0rem;
+        text-align: center;
+    }
+    .div3 h2, .div4 h2, .div5 h2 {
+        font-size: 2rem;
+    }
+    .divicones {
+        display: flex;
+        flex-direction: column;
+    }
+    .div4-1 li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .div4-1 img {
+        width: 5rem;
+    }
+    .div5-1 {
+        flex-direction: column;
+    }
+    .div5-1 div {
+        margin-bottom: 2rem;
+    }
+    .div2-1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
